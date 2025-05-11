@@ -30,9 +30,9 @@ if page == "Real-Time Location":
     folium_static(m)
 
 elif page == "History":
-    from pages.history import show_history
+    from history import show_history
     show_history()
 
 elif page == "Settings":
-    from pages.settings import show_settings
+    from settings import show_settings
     show_settings()
