@@ -1,0 +1,4 @@
+Flask==3.1.0
+streamlit==1.45.0
+folium==0.19.5
+streamlit-folium==0.25.0
