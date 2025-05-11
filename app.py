@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.api_client import GNSSApiClient
+from api_client import GNSSApiClient
 import folium
 from streamlit_folium import folium_static
 
