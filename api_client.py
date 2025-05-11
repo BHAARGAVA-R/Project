@@ -1,7 +1,7 @@
 import requests
 
 class GNSSApiClient:
-    def __init__(self, base_url="192.168.1.13"):
+    def __init__(self, base_url="http://192.168.1.13:5000"):
         self.base_url = base_url
 
     def get_latest_location(self):
